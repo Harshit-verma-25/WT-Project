@@ -3,7 +3,6 @@
     font-weight: 700;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -83,7 +82,7 @@ nav {
 .imac-1-text span {
     background: #29CF00;
     background: repeating-linear-gradient(to left, orange, red, blue);
-
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
